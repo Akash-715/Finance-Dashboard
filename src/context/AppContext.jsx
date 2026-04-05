@@ -29,7 +29,7 @@ export const AppProvider = ({ children }) => {
   const [activePage, setActivePage] = useState("overview");
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
-  // Always save sorted transactions
+
   useEffect(() => {
     localStorage.setItem(
       "transactions",
@@ -41,7 +41,7 @@ export const AppProvider = ({ children }) => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
-  // Custom setter to always keep transactions sorted
+
   const updateTransactions = (newTransactions) => {
     if (typeof newTransactions === "function") {
       setTransactions((prev) => sortTransactionsByDate(newTransactions(prev)));

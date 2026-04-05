@@ -95,7 +95,7 @@
 ========================= */
 .tx-table-wrapper {
   overflow-x: auto;
-  max-height: 650px;
+  max-height: 750px;
   overflow-y: auto;
   border-radius: 16px;
 }

@@ -165,6 +165,14 @@
   border-radius: 999px;
 }
 
+.good {
+  color: #10b981;
+}
+
+.warning {
+  color: #f59e0b;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */

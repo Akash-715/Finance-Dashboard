@@ -27,7 +27,7 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Overlay */}
+
       {sidebarOpen && (
         <div className="sidebar-overlay" onClick={() => setSidebarOpen(false)} />
       )}

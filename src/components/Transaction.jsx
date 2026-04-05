@@ -45,7 +45,7 @@ const Transaction = () => {
 
   return (
     <div className={`tx-card tx-${theme}`}>
-      {/* Top Bar */}
+
       <div className="tx-top">
         <button className="tx-export-btn" onClick={exportCSV}>
           ⬇ Export CSV
@@ -60,7 +60,7 @@ const Transaction = () => {
         />
       </div>
 
-      {/* Table */}
+
       <div className="tx-table-wrapper">
         <table className="tx-table">
           <thead>

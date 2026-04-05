@@ -244,6 +244,14 @@ body {
   opacity: 0.96;
 }
 
+.dashboard-income-expense {
+  margin-bottom: 24px;
+}
+
+.dashboard-recent {
+  margin-bottom: 24px;
+}
+
 /* =========================
    RESPONSIVE
 ========================= */

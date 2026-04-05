@@ -9,6 +9,7 @@ import CategoryPie from "../components/charts/CategoryPie.jsx";
 import Insights from "../components/Insights.jsx";
 import AddTransactionModal from "../components/AddTransactionModal.jsx";
 import RecentTransactions from "../components/RecentTransactions.jsx";
+import IncomeExpenseChart from "../components/charts/IncomeExpenseChart.jsx";
 
 import "../styles/dashboard.css";
 
@@ -77,6 +78,10 @@ const Dashboard = () => {
                   <BalanceChart />
                   <CategoryPie />
                 </div>
+              </div>
+
+              <div className="dashboard-income-expense">
+                <IncomeExpenseChart />
               </div>
 
               <div className="dashboard-insights">
