@@ -14,7 +14,7 @@ const Navbar = () => {
           ☰
         </button>
 
-        <h1 className="company-name">FinIQ</h1>
+        <h1 className="company-name">FinVora</h1>
       </div>
     </header>
   );

@@ -1,4 +1,4 @@
-# FinIq - Finance Dashboard UI
+# Finvora - Finance Dashboard UI
 
 A responsive and interactive finance dashboard built as part of a frontend assignment.  
 The application helps users view financial summaries, explore transactions, understand spending behavior, and switch between basic frontend-only roles such as **Viewer** and **Admin**.

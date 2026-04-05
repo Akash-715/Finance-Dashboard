@@ -1,6 +1,6 @@
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import { useAppContext } from "../../context/AppContext";
-import "../../styles/CategoryPie.css";
+import "../../styles/categoryPie.css";
 
 const COLORS = [
   "#8b008b",
